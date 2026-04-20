@@ -74,4 +74,16 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/btn3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn3" />
+
+    <ImageView
+        android:id="@+id/imgTrangChu"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="304dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/anh1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 </androidx.constraintlayout.widget.ConstraintLayout>

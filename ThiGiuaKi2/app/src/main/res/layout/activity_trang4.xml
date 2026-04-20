@@ -7,15 +7,27 @@
     android:gravity="center_horizontal">
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@mipmap/ic_launcher" /> <TextView
+        android:id="@+id/imgAvatarTrang4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/anh1"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
+        android:background="#DDDDDD"/> <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Họ và Tên: Nguyễn Thị Yến Ly"
-    android:textSize="20sp"
+    android:text="THÔNG TIN SINH VIÊN"
+    android:textSize="22sp"
     android:textStyle="bold"
+    android:textColor="#2196F3"
     android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ tên: Nguyễn Thị Yến Ly"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -31,10 +43,4 @@
         android:textSize="18sp"
         android:layout_marginTop="10dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Địa chỉ: Nha Trang, Khánh Hòa"
-        android:textSize="18sp"
-        android:layout_marginTop="10dp"/>
 </LinearLayout>
