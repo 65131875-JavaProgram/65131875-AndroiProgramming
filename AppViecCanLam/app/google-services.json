@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "301606355182",
+    "project_id": "vieccanlam-3299f",
+    "storage_bucket": "vieccanlam-3299f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301606355182:android:654178f0dd439ba2cbf3ff",
+        "android_client_info": {
+          "package_name": "yenly.edu.appvieccanlam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKlqEboPlicWX3-8tgGw6VGWNbcAYEO34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
